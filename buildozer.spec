@@ -47,7 +47,7 @@ android.api = 28
 android.minapi = 21
 
 # (str) Android NDK version to use
-android.ndk = 23b
+android.ndk = 25b
 
 # (bool) If True, then automatically accept SDK license
 # Bu, lisans kabul hatasını atlamak için eklendi.
