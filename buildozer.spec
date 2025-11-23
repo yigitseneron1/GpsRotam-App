@@ -41,7 +41,7 @@ android.permissions = android.permission.INTERNET, android.permission.ACCESS_FIN
 
 # (int) Target Android API, should be as high as possible.
 # API Lisans sorununu çözmek için 28'de kalıyor.
-android.api = 28
+android.api = 24
 
 # (int) Minimum API your APK / AAB will support.
 android.minapi = 21
