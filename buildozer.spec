@@ -19,8 +19,8 @@ source.include_exts = py,png,jpg,kv,atlas,txt,json
 version = 0.1
 
 # (list) Application requirements
-# Hata tespiti için sadece temel kütüphaneleri ve Kivy'nin stabil sürümünü (2.3.0) sabitledik.
-requirements = python3,kivy==2.3.0
+# Projenizdeki tüm kütüphaneler eklendi (KivyMD, Folium, Plyer vb.)
+requirements = python3,kivy==2.3.0,kivymd,folium,requests,plyer
 
 # (str) Uygulamanın ana dosyasının adı 'ana.py' olduğu için bu satır gereklidir.
 main.filename = ana.py 
@@ -40,14 +40,13 @@ fullscreen = 0
 android.permissions = android.permission.INTERNET, android.permission.ACCESS_FINE_LOCATION, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE
 
 # (int) Target Android API, should be as high as possible.
-# API Uyumsuzluğunu gidermek için en güvenilir sürüm olan 30'a yükselttik.
+# Lisans ve uyumluluk sorununu çözmek için 30'a yükseltildi.
 android.api = 30
 
 # (int) Minimum API your APK / AAB will support.
 android.minapi = 21
 
 # (str) Android NDK version to use
-# Logların istediği minimum NDK sürümünü (25) ayarlıyoruz.
 android.ndk = 25b
 
 # (int) Android NDK API to use. Uyumsuzluğu gidermek için manuel olarak 24'e sabitledik.
